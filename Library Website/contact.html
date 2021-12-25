@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="contact.css">
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i%7CLato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <!-- Mobile CSS -->
+    <link rel="stylesheet" media="screen and (max-width: 600px)" href="./mobile.css">
+    <!-- Normal CSS -->
+    <link rel="stylesheet" media="screen and (max-width: 1200px)" href="./normal.css">
+</head>
+<body>
+    <div id="main-container">
+        <div id="welcome-section">
+            <span><i class="fa fa-book fa-3x"></i></span>
+            <div class="showcase-content">
+                <div id="welcome-header">
+                    <div>
+                        <h1><a class="links" href="index.html">LIBRARY</a></h1>
+                        <p>Celebrating Words, Ideas and Community</p>
+                    </div>
+                    <a href="#" class="toggle-button">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </a>
+                    <div class="header">
+                        <ul class="inner-header">
+                            <li><a class="links" href="index.html">Home</a></li>
+                            <li><a class="links" href="index.html#books-section">Books & Media</a></li>
+                            <li><a class="links" href="services.html">Services</a></li>
+                            <li><a class="links" href="contact.html">Contact</a></li>
+                        </ul>    
+                    </div>
+                </div>
+                <h3>Having Any Questions? Contact Us</h3>
+                <p class="paragraph">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+        </div>
+        <section id="contact-info">
+            <div class="cards">
+                <div class="card">
+                    <span>
+                        <i class="fa fa-map-marker fa-3x"></i>
+                        <h3>Office Address</h3>
+                    </span>
+                    <div>
+                        <a href="#">60100 Embu, Kenya</a>
+                        <a href="#">Embu University</a>
+                        <a href="#">PO Box 0100</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <span>
+                        <i class="fa fa-fax fa-3x"></i>
+                        <h3>Phone & Fax</h3>
+                    </span>
+                    <div>
+                        <a href="#">Local: +2547-2468-8888</a>
+                        <a href="#">CellPhone: 07-1234-5678</a>
+                        <a href="#">Fax: (001)-254-6353</a>
+                    </div>
+                    </div>
+                    <div class="card">
+                        <span>
+                            <i class="fa fa-envelope fa-3x"></i>
+                            <h3>Email Address</h3>
+                        </span>
+                        <div>
+                            <a href="#">www.library.com</a>
+                            <a href="#">support@library.com</a>
+                            <a href="#">info@library.com</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="email-section">
+            <form method="POST" action="contact.php">
+                <h3>Send us a message</h3>
+                <div class="form-group">
+                    <label for="firstname">First Name</label>
+                    <input type="text" name="firstname" id="firstname">
+                </div>
+                <div class="form-group">
+                    <label for="lastname">Last Name</label>
+                    <input type="text" name="lastname" id="lastname">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email">
+                </div>
+                <div class="form-group">
+                    <label for="phonenumber">Phone Number</label>
+                    <input type="number" name="phonenumber" id="phonenumber">
+                </div>
+                <div class="form-group">
+                    <label for="message">Your Message</label>
+                    <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                </div>
+                <button class="btn" type="submit">Send Message</button>
+            </form>
+        </section>
+        <footer id="main-footer">
+            <h3>About Our Libary</h3>
+            <p>It is a long established fact that a reader will be distracred by the readable content of a page when looking</p>
+            <p>Copyright &copy; 2021</p>
+        </footer>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>

@@ -1,0 +1,124 @@
+#welcome-section span i {
+    position: absolute;
+    top: 2rem;
+    left: 4rem;
+}
+#welcome-header h1 {
+    font-size: 2rem;
+    color: #fff;
+    padding-left: 9rem;
+    padding-top: 1.3rem;
+}
+#welcome-header p:first-of-type {
+    padding-left: 9rem;
+    color: #f4f4f4;
+    font-size: 1rem;
+}
+.header .inner-header {
+    flex-direction: column;
+    font-size: 1.2rem;
+    margin-right: 2rem;
+}
+.header .inner-header a {
+    padding: 0.4rem;
+}
+#welcome-content p:first-of-type {
+    font-size: 2rem;
+    padding-top: 0;
+}
+#welcome-content h2 {
+    font-size: 4rem;
+    padding-top: 4rem;
+}
+#welcome-content p:last-of-type {
+    font-size: 1.5rem;
+}
+#welcome-content a.btn {
+    margin-top: 3rem;
+    font-size: 1rem;
+}
+#welcome-info .welcome-about {
+    display: none;
+}
+#welcome-info .welcome-blog h2 {
+    font-size: 3rem;
+    text-align: center;
+}
+#welcome-info .welcome-blog p:first-of-type {
+    font-size: 1.5rem;
+    text-align: center;
+}
+#welcome-info .welcome-blog p {
+    font-size: 1.6rem;
+}
+#welcome-info .welcome-blog {
+    margin: auto;
+    font-size: 1.3rem;
+}
+#welcome-info .welcome-blog .btn {
+    display: none;
+}
+
+#books h2 {
+    font-size: 3rem;
+    padding-top: 2rem;
+}
+#books p {
+    font-size: 1.5rem;
+}
+#books .links_2_books button:nth-child(even) {
+    display: none;
+}
+#books .links_2_books {
+    display: flex;
+    justify-content: space-around;
+    margin: 2 1rem;
+}
+#books .links_2_books button {
+    font-size: 1.5rem;
+}
+#books-img .img {
+    min-width: 50%;
+}
+#books-img .img:nth-child(4) {display: none;}
+#books-img .img:nth-child(5) {display: none;}
+#books-img .img:nth-child(6) {display: none;}
+#books-img .img:nth-child(7) {display: none;}
+
+#read-more-btn .btn{
+    font-size: 1.5rem;
+}
+#lib-content .flex-item {
+    min-width: 50%;
+}
+
+/* SERVICES WEBPAGE */
+#welcome-section .showcase-content h3 {
+    font-size: 3rem;
+    padding-top: 8rem;
+}
+#welcome-section .showcase-content .paragraph {
+    font-size: 1.5rem;
+}
+#services-section h3 {
+    font-size: 3rem;
+}
+#services-section .paragraph {
+    font-size: 1.5rem;
+}
+#services-section .cards .card {
+    min-width: 48%;
+}
+.card:hover span {
+    order: 1;
+}
+.card:hover div {
+    order: 2;
+}
+/* FOOTER */
+#main-footer h3 {
+    font-size: 3rem;
+}
+#main-footer p {
+    font-size: 1.5rem;
+}

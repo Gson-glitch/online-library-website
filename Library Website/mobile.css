@@ -1,0 +1,214 @@
+/* Responsive Navbar */
+#welcome-section span i {
+    top: 2rem;
+    left: 1rem;
+    transform: scale(0.9);
+}
+#welcome-header div h1:first-of-type {
+  padding-left: 7.5rem;
+  padding-top: 2rem;
+}
+#welcome-header div p:first-of-type {
+    display: none;
+}
+#welcome-header .toggle-button {
+    display: flex;
+}
+#welcome-header .header {
+    display: none;
+}
+#welcome-header .header.active {
+    display: flex;
+}
+#welcome-header .header .inner-header {
+    margin: 0 0.6rem;
+    padding: 1rem;
+    padding-top: 0.2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: absolute;
+    top: 4.4rem;
+    right: 2rem;
+    border: none;
+    border-radius: 1rem;
+    background-color: #f4f4f4;
+    height: 20vh;
+}
+#welcome-header .header .inner-header li a {
+    padding: 0;
+    text-align: end;
+    color: #000;
+}
+
+#welcome-header .header .inner-header li a:active {
+    color: #ff7236;
+    background-color: #fff;
+}
+#welcome-header .header .inner-header li a:visited {
+    color: #ff7236;
+    background-color: #fff;
+}
+#welcome-content p {
+    font-size: 2rem;
+}
+#welcome-content p:first-child {
+   padding-top: 4rem;
+}
+#welcome-content h2 {
+    font-size: 2.6rem;
+}
+#welcome-content p:last-of-type {
+    margin-top: 8rem;
+}
+#welcome-content a {
+    margin-top: 4rem;
+}
+
+#welcome-info .welcome-blog {
+    padding: 0 4rem;
+}
+#welcome-info .welcome-blog h2 {
+    font-size: 2.6rem;
+}
+#welcome-info .welcome-blog p {
+    font-size: 1.4rem;
+    line-height: 1.5;
+    padding: 0;
+}
+#welcome-info .welcome-blog .btn {
+    margin-top: -4rem;
+    margin-bottom: 4rem;
+    margin-left: 6rem;
+}
+#welcome-info .welcome-about {
+    display: none;
+}
+
+#books .links_2_books .btn {
+    display: none;
+}
+#books-img .img{
+    min-width: 100%
+}
+#books-img .img:nth-child(4) {display: none;}
+#books-img .img:nth-child(5) {display: none;}
+#books-img .img:nth-child(6) {display: none;}
+#books-img .img:nth-child(7) {display: none;}
+
+#lib-content {
+    display: none;
+}
+
+#main-footer {
+    margin-top: 0;
+}
+
+/* SERVICES WEBPAGE */
+#welcome-section .showcase-content h3 {
+    margin-top: 8rem;
+    font-size: 3rem;
+}
+#welcome-section .showcase-content .paragraph {
+    font-size: 1.6rem;
+}
+#services-section {
+    height: 190vh; 
+    margin-top: 2rem;
+}
+#services-section h3:first-of-type {
+    font-size: 2rem;
+}
+#services-section p:first-of-type {
+    font-size: 1rem;
+}
+#services-section .cards {
+    width: 60vw;
+    margin: auto;
+}
+#services-section .cards .card {
+    max-height: 12vh;
+    margin-bottom: 10rem;
+}
+#services-section .cards .card span i {
+    transform: scale(0.5);
+    padding-top: 0;
+}
+#services-section .cards .card h3 {
+    padding-top: 0;
+    font-size: 1rem;
+}
+#services-section .cards .card p {
+    padding: 1rem 1rem;
+}
+#services-section .cards .card div p {
+    font-size: 1rem;
+    padding-top: 1rem;
+}
+#services-section .cards .card div a {
+    font-size: 1rem;
+    padding-top: 1rem;
+}
+#services-section .cards .card {
+    width: 100%;
+}
+
+/* CONTACT WEBPAGE */
+#welcome-section .showcase-content h3 {
+    margin-top: 6rem;
+    font-size: 2.6rem;
+}
+#contact-info {
+    height: 75vh;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+#contact-info .cards {
+    width: 60vw;
+    margin: auto;
+}
+#contact-info .cards .card span i {
+    transform: scale(0.5);
+    padding-top: 0;
+}
+#contact-info .cards .card span h3 {
+    padding-top: 0;
+    font-size: 1.5rem;
+}
+#contact-info .cards .card div {
+    padding: 0.4rem;
+}
+#contact-info .cards .card div a {
+    font-size: 1rem;
+    padding: 0;
+}
+#contact-info .cards .card {
+    width: 100%;
+}
+.card:hover span {
+    order: 1;
+}
+.card:hover div {
+    order: 2;
+}
+#email-section {
+    margin-top: -8rem;
+}
+#email-section form {
+    padding: 1rem 2rem;
+}
+#email-section input {
+    margin-bottom: 0.5rem;
+}
+#email-section form h3 {
+    font-size: 2rem;
+    margin: 2rem;
+}
+
+/* FOOTER */
+#main-footer h3 {
+    font-size: 2rem;
+}
+#main-footer p {
+    font-size: 1rem;
+}

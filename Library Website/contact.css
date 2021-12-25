@@ -1,0 +1,258 @@
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.links {
+    text-decoration: none;
+    color: #fff;
+    list-style: none;
+}
+.btn {
+    border: none;
+    display: inline-block;
+    padding: 1rem 2.9rem;
+    background-color: #ff7236;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 1.6rem;
+}
+#main-container {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+/* CONTACT WELCOME SECTION */
+#welcome-section {
+    position: relative;
+    height: 66vh;
+    width: 100vw;
+    background: url("img/backgrounds/latest-blog-bg-home-v1.jpg") no-repeat center center/cover;
+}
+#welcome-section span i {
+    position: absolute;
+    top: 3rem;
+    left: 7rem;
+    color: #fff;
+}
+.showcase-content {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+#welcome-header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#welcome-header h1 {
+    font-size: 4rem;
+    color: #fff;
+    padding-left: 10rem;
+    padding-top: 1.3rem;
+}
+#welcome-header .toggle-button {
+    position: absolute;
+    top: 2rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 3rem;
+    height: 2rem;
+}
+#welcome-header .toggle-button .bar {
+    height: 0.3rem;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 1rem;
+}
+#welcome-header p {
+    padding-left: 10rem;
+    color: #f4f4f4
+}
+.inner-header {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.inner-header {
+    list-style: none;
+    font-size: 1.6rem;
+    border: 0.1rem  solid #f4f4f4;
+    border-left: none;
+    border-right: none;
+    margin-right: 10rem;
+    margin-top: 2rem;
+}
+.inner-header li a {
+    display: block;
+    padding: 0.8rem 2.2rem;
+}
+.inner-header li a:hover {
+    background-color: #000;
+    color: #ff7236;
+}
+
+#welcome-section .showcase-content h3 {
+    font-size: 4rem;
+    font-family: "Lato", Georgia, Times, serif;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    padding-top: 8rem;
+}
+#welcome-section .showcase-content .paragraph {
+    font-size: 1.3rem;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    font-style: italic;
+    text-align: center;
+    color: #fff;
+    padding-top: 1rem;
+}
+/* Contact Info Section */
+#contact-info {
+    max-width: 80vw;
+    margin: auto;
+    overflow: hidden;
+    margin-top: 10rem;
+}
+#contact-info .cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 4rem 0;
+    border: 1px solid #ccc;
+    margin-bottom: 12rem;
+}
+#contact-info .cards .card {
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+    text-align: center;
+    margin-right: 0.1rem;
+}
+.card div {
+    background-color: #f4f4f4;
+    padding-bottom: 2rem;
+    height: 100%;
+}
+.card:hover div {
+    background-color: #ff7236;
+    color: #fff;
+    order: 1;
+}
+.card:hover span {
+    background-color: #000;
+    color: #fff;
+    order: 2;
+}
+#contact-info .cards .card i {
+    padding-top: 3rem;
+}
+#contact-info .cards .card h3 {
+    font-size: 2rem;
+    font-family: "Lato", Georgia, Times, serif;
+    text-transform: uppercase;
+    padding: 2rem 0;
+}
+#contact-info .cards .card a {
+    display: block;
+    font-size: 1.4rem;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    text-decoration: none;
+    padding-top: 2rem;
+    color: #000;
+}
+#contact-info .cards .card a:hover {
+    color: #fff;
+}
+/* Email Section */
+#email-section {
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    margin: auto;
+    padding: 4rem 0;
+    font-family: 'Raleway', sans-serif;
+}
+#email-section form {
+    border: 1px solid #000;
+    padding:  1rem 4rem;
+    border-radius: 0.4rem;
+    background-color: #aaa;
+}
+#email-section form h3 {
+    font-size: 3.5rem;
+    font-family: "Lato", Georgia, Times, serif;
+    text-transform: uppercase;
+    margin: 4rem 0;
+}
+#email-section label {
+    display: block;
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: "Lato", Georgia, Times, serif;
+    color: #000;
+    padding-bottom: 1rem;
+}
+#email-section input {
+    width: 100%;
+    padding: 0.5rem;
+}
+#email-section input:focus {
+    font-family: 'Raleway', sans-serif;
+    background-color: #000;
+    color: #fff;
+}
+#email-section textarea {
+    width: 100%;
+    margin-bottom: 1rem;
+    padding: 1rem;
+}
+#email-section textarea:focus {
+    font-family: 'Raleway', sans-serif;
+    background-color: #000;
+    color: #fff;
+}
+#email-section .btn {
+    padding: 1rem;
+}
+#email-section .btn:hover {
+    background-color: #ff4e03;
+    color: #000;
+} 
+
+/* Footer */
+#main-footer {
+    background-color: #111;
+    color: #fff;
+    text-align: center;
+    padding: 2rem;
+}
+#main-footer h3 {
+    font-size: 4rem;
+    padding-bottom: 2rem;
+}
+#main-footer:hover {
+    background-color: #000;
+    color: #ff4e03;
+}
+
+#main-footer p {
+    font-size: 2rem;
+    padding-bottom: 1rem;
+}
